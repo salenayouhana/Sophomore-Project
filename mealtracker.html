@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="mealtrack.js"></script>
+</head>
+
+<body style="background-color: rgb(143, 188, 143);">
+    <body>
+    <h1>Track Your Meals</h1>
+
+    <div class="container1">
+        <!--Form Heading -->
+        <h2>Breakfast</h2>
+        <!--form -->
+        <form>
+          <!-- meal name -->
+          <ul>
+            <li><textarea name="meals" id="mealsinput" placeholder="What did you eat for Breakfast?"></textarea></li>        
+            <li>
+            <!--submit button-->
+              <input type="button" name="submit" onclick="showInput();" value="submit" />
+            </li>
+          </ul>
+        </form>
+      </div>
+      
+      <div class="container2">
+        <!--Form Heading -->
+        <h2>Lunch</h2>
+        <!--form -->
+        <form>
+          <!-- meal name -->
+          <ul>
+            <li><textarea name="meals" id="mealsinput" placeholder="What did you eat for Lunch?"></textarea></li>        
+            <li>
+            <!--submit button-->
+              <input type="button" name="submit" onclick="showInput();" value="submit" />
+            </li>
+          </ul>
+        </form>
+      </div>
+
+      <div class="container3">
+        <!--Form Heading -->
+        <h2>Dinner</h2>
+        <!--form -->
+        <form>
+          <!-- meal name -->
+          <ul>
+            <li><textarea name="meals" id="mealsinput" placeholder="What did you eat for Dinner?"></textarea></li>     
+            <li>
+            <!--submit button-->
+              <input type="button" name="submit" onclick="showInput();" value="submit" />
+            </li>
+          </ul>
+        </form>
+      </div>
+
+  <!--Display meals -->
+  <div class="displaymeals">
+    <h3>What I Ate</h3>
+    <p><span id= "display"></span></p>
+  </div>
+
+
+    <a href="home.html"><footer>
+    <div class="return">
+        <span>
+        <i class="goHome">
+    </i>
+        Return to Home page</span>
+    </div>
+    </footer>
+</a>
+
+
+    </body>
+</html>
